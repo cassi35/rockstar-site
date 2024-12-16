@@ -1,0 +1,37 @@
+<footer>
+    <div class="redes-nav">
+        <ul>
+            <li><a href="">contact</a></li>
+            <li><a href="">careers</a></li>
+            <li><a href="">comunity</a></li>
+            <li><a href="">subscribe</a></li>
+        </ul>
+    </div>
+    <article class="linguas"> 
+        <h1>select a language</h1>
+        <% let linguas = ["portugues","espanhol","frances","lobanes","italiano","chines"] %>
+        <div class="linguas-display" style="display: none;">
+            <% for(let i in linguas) { %>
+                <p><%=  linguas[i] %></p> <!-- faz um adventer listener traduzindo -->
+            <% } %>
+        </div>
+    </article>
+    <div class="copyrights">
+        <ul>
+            <li>corporate</li>
+            <li>privacy</li>
+            <li>cokie</li>
+            <li>cokie policy</li>
+            <li>legal</li>
+        </ul>
+    </div>
+    <div class="redes-socias">
+        <menu>
+            <a href=""></a> <!-- twitter -->
+            <a href=""></a> <!-- instagram -->
+            <a href=""></a> <!-- youtube -->
+            <a href=""></a> <!-- facebook -->
+            <a href=""></a> <!-- discord -->
+        </menu>
+    </div>
+</footer>
