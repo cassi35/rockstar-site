@@ -1,0 +1,16 @@
+{
+  "name": "rockstar-site",
+  "version": "1.0.0",
+  "description": "esse é uma replica do site da rockstar com nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cassiano",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}
